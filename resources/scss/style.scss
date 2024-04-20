@@ -1,0 +1,13 @@
+@use "./layouts/header";
+@use "./layouts/footer";
+
+@use "./globals/global";
+@use "./globals/reset";
+
+@use "./projects/index";
+@use "./projects/detail";
+@use "./projects/mycart";
+
+@use "./users/login";
+@use "./users/register.scss";
+@use "./users/profile.scss";

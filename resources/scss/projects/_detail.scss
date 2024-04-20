@@ -1,0 +1,80 @@
+/*-------------------------------------------
+detailビュー
+-------------------------------------------*/
+
+// component
+.detail {
+    display: flex;
+
+    @media (640px <= width) {
+    }
+}
+
+// project
+.index-link-content {
+    @media (640px <= width) {
+        margin-bottom: 60px;
+        font-size: 20px;
+        border-bottom: 1px solid black;
+    }
+}
+
+.detail {
+    @media (640px <= width) {
+        width: 80%;
+        margin: 0 auto 60px;
+    }
+
+    .detail-img {
+        @media (640px <= width) {
+            width: 350px;
+        }
+    }
+
+    .detail-content {
+        @media (640px <= width) {
+            margin-left: 100px;
+        }
+
+        &-name {
+            @media (640px <= width) {
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 26px;
+            }
+        }
+
+        &-price {
+            @media (640px <= width) {
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 13px;
+            }
+        }
+
+        &-dsc {
+            @media (640px <= width) {
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    &-cart {
+        @media (640px <= width) {
+            margin: 30px auto;
+        }
+
+        &-sentence {
+            @media (640px <= width) {
+                cursor: pointer;
+                width: 40%;
+                padding: 12px 0;
+                background: white;
+                border: 1px solid #ff4f50;
+                border-radius: 8px;
+                color: #ff4f50;
+            }
+        }
+    }
+}

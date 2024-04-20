@@ -1,0 +1,45 @@
+/*-------------------------------------------
+共通処理
+-------------------------------------------*/
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #333;
+    font-size: 0.75rem;
+    // font-family: "Raleway", "Noto Sans JP", sans-serif;
+    font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial",
+        "Hiragino Sans", "ヒラギノ角ゴシック", "YuGothic", "Yu Gothic",
+        "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.8;
+
+    @media (640px <= width) {
+        font-size: 14px;
+        letter-spacing: 0.56px;
+    }
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 90.66%;
+    margin: 0 auto;
+    @media (640px <= width) {
+        width: 93.63%;
+    }
+}
